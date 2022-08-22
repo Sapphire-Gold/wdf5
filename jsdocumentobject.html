@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document Object</title>
+
+    <!-- fontawesome css1 -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+	<!-- custom css -->
+	<link href="css/documentobject.css" rel="stylesheet" type="text/css" />
+
+
+
+</head>
+<body>
+
+
+	<div class="container">
+
+		<div class="card">
+			
+           <div class="card-content">
+           	<h3 class="card-title">To DO List</h3>
+
+           	<form id="tast-form" class="form" action="db.php" method="POST">
+           		<div class="form-control">
+           			<label for="task">Enter New Task</label>
+           			<input type="text" name="task" id="task" class="task">
+           		</div>
+
+           		<input type="submit" name="btn" class="btn" value="Add Task"/>
+
+           	</form>
+
+
+         	
+           </div>
+
+
+           <div class="card-aciton">
+
+           	<h4 id="tasktitle">Tasks</h4>
+
+           	<ul class="list-group">
+           		<li class="list-group-item">List Item 1 <a href="#" id = "delete-item1" class="delete-item delete-me"><i class="fas fa-home"></i></a></li>
+           		<li class="list-group-item">List Item 2 <a href="#" id = "delete-item2" class="delete-item delete-me"><i class="fas fa-home"></i></a></li>
+           		<li class="list-group-item">List Item 3 <a href="#" id = "delete-item3" class="delete-item delete-me"><i class="fas fa-home"></i></a></li>
+           		<li class="list-group-item">List Item 4 <a href="#" id = "delete-item4" class="delete-item delete-me"><i class="fas fa-home"></i></a></li>
+           		<li class="list-group-item">List Item 5 <a href="#" id = "delete-item5" class="delete-item delete-me"><i class="fas fa-home"></i></a></li>
+           	</ul>
+
+           	<a href='https://google.com' class="clear-tasks">Clear Task</a>
+         	
+           </div>
+
+
+              <div class="moretasks">
+                <img src="https://raw.githubusercontent.com/Codelessly/FlutterLoadingGIFs/master/packages/cupertino_activity_indicator.gif" class="loading" alt="loading" tag = 'kotha'>
+              </div>
+
+
+		</div>
+		
+
+	</div>
+
+
+
+
+
+
+
+ <script src='js/jsdocumentobject.js' type="text/javascript"></script>
+
+  <script src="https://kit.fontawesome.com/1639a5706e.js" crossorigin="anonymous"></script>
+
+<!--  <script src="https://kit.fontawesome.com/1639a5706e.js" crossorigin="anonymous"></script> -->
+
+</body>
+</html>

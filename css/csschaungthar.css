@@ -1,0 +1,254 @@
+
+@font-face{
+	font-family:  akayatelivigala;
+	src:local("AkayaTelivigala-Regular"),url("../libs/fonts/akayatelivigala/AkayaTelivigala-Regular.ttf") format("woff");
+}
+
+
+
+.intro{
+text-align: justify;
+text-indent: 5px;
+border: 2px solid yellow;
+background:
+#849df5
+;
+padding: 15px;
+font-family:  akayatelivigala;
+
+}
+
+
+.menutext{
+	color: white;
+ padding: 10px;
+ border: 5px;
+ background-color: #2b38b3;
+ border-radius: 5px;
+ text-decoration: none;
+ transition: 0.5s;
+}
+
+.menutext:hover{
+	color: white;
+	background-color: red;
+	
+}
+.locationa,.imga,.imgb{
+	border-radius: 10px;
+}
+.paragraph1::first-letter{
+	color: red;
+	font-size: 50px;
+}
+
+.imgc,.imgd,.imge{
+	border-radius: 10px;
+} 
+
+.paragraph2::first-letter{
+	color: blue;
+	font-size: 50px;
+}
+
+.imgf,.imgg,.imgh{
+	border-radius: 10px;
+}
+
+.paragraph3::first-letter{
+	color: orange;
+	font-size: 50px;
+}
+
+#p4{
+	background-color: #e6eded;
+	height: 770px;
+	
+	}
+
+.img1{
+	border-radius: 25px;
+
+
+}
+
+.namea,.namec,.namee{
+	width: 200px;
+	height: 200px;
+	padding: 7px 27px;
+	background-color: #7de8e8;
+	text-indent: 100px;
+	font-size: 17px;
+	border-radius: 10px;
+	margin-left: 49px;
+}
+
+.submit{
+	width: 93px;
+	height: 43px;
+	font-size: 15px;
+	background-color: #148acc; 
+	border-radius: 15px;
+	border-style: outset;
+	margin-left: 400px;
+	color: #1e2101;
+
+
+
+}
+
+.nameb,.named{
+	width: 250px;
+	height: 42px;
+	padding: 1px ;
+	background-color: #e3fafa;
+	border-radius: 10px;
+	text-indent: 35px;
+	font-size: 17px;
+	margin-left: 25px;
+
+}
+
+.namef{
+	width: 250px;
+	height: 95px;
+	background-color: #e3fafa;
+	border-radius: 13px;
+	margin-left: 169px;
+	font-size: 17px;
+	text-indent: 35px;
+
+}
+
+
+.reviewstar{
+	color: #6b7322;
+	font-size: 18px;
+	
+	margin-left: 800px;
+
+
+	}
+
+
+
+.beach8{
+	border-radius: 30px;
+}
+
+.aa{
+	/*width: 100px;*/
+	/*height: 150px;*/
+	padding: 7px 20px;
+	
+	text-indent: 90px;
+	font-size: 17px;
+	border-radius: 10px;
+	margin-left: 45px;
+	font-size: 18px;
+
+
+}
+
+.mailto,.tel,.skype{
+	font-size: 19px;
+	font-weight: semi-bold;
+	text-decoration: none;
+	padding-left: 24px;
+}
+
+.final{
+	position: relative;
+	height: 600px;
+	/*background-color: #a0dafa;*/
+	background-color: #84ccf5;
+	color: #243b47;
+}
+.final h2{
+	font-size: 26px;
+	color: #2f3036;
+
+}
+.ending{
+	position: absolute;
+	padding-top:5px; 
+	display: inline;
+	
+	
+}
+
+address{
+	display: inline;
+}
+
+.ending a:visited{
+	color: red;
+}
+
+
+.football{
+	display: block;
+	padding-left: 139px;
+}	
+	
+.information{
+	padding-left: 75px;
+	font-size: 23px;
+}
+
+.final2{
+	display: inline;
+	
+	padding-left: 530px;
+	border-radius: 10px;
+}
+
+.welcome2{
+	border-radius: 10px;
+
+}
+
+.follow h3{
+	padding-right: 350px;
+}
+
+.follow i{
+	letter-spacing: 30px;
+	font-size: 30px;
+	padding-right: 30px;
+}
+
+.facebook{
+	color: blue;
+}
+
+.youtube{
+	color: red;
+}
+
+.telegram{
+	color: #103ee6;
+}
+
+
+.twitter{
+	color:#2c35e8;
+}
+
+.follow i:hover{
+	width: 100px;
+	height: 100px;
+	font-size: 50px;
+}
+
+.gotop{
+	padding: 10px 15px;
+	background:linear-gradient(blue,#79b0e0);
+	border-radius: 10px;
+	color: white;
+	text-decoration: none;
+	margin-left: 70px;
+	margin-bottom: 100px;
+
+
+}

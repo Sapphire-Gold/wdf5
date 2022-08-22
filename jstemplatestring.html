@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Template String</title>
+</head>
+<body>
+
+
+
+<script type="text/javascript">
+
+	
+const name = "kyaw kyaw",
+       age = 24,
+      city = "Mandalay",
+       job = "Developer";
+
+   let abc;
+
+                          //Without Template string
+
+   abc = '<ul> <li>Name : '+name+' </li> <li> Age :  '+age+' </li> <li> City : '+city+' </li> <li> Job '+job+' </li></ul>'
+
+   abc = '<ul>' + 
+   '<li>Name : '+name+' </li>' +
+   ' <li> Age :'+age+' </li>' +
+   '<li> City :'+city+' </li>' +
+   ' <li> Job :'+job+' </li>' +
+   '</ul>'
+
+                               //With Template string
+  // abc = `<ul>
+  // <li>Name :  ${name} </li>
+  // <li>Age : ${age} </li>
+  // <li>City : ${city} </li>
+  // <li>Job : ${job} </li>
+  // </ul>`;
+
+
+
+document.write(abc);
+
+
+let val = +'5';
+console.log(val.toFixed(2));
+
+
+
+
+</script>
+
+
+
+</body>
+</html>

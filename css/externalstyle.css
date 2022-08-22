@@ -1,0 +1,44 @@
+h1{
+	color:red;
+}
+
+/*Group Selector*/
+
+
+h2,h3,h4{
+	color:green;
+}
+
+/*Id Selector*/
+/*#myself{
+
+color:red;
+}
+
+#pray{ 
+color:green;
+ }
+
+ #japu{
+
+ 	color:orange;
+ }*/
+
+/*Id Group Selector*/
+
+
+ #pray,#japu{
+ 	color:blue;
+ }
+
+ /*Class Selector*/
+
+ .redcolor{
+ 	color:red;
+ }
+
+ .f20{
+ 	font-size:20px;
+ }
+
+ .abc,.efg{ color:red; }

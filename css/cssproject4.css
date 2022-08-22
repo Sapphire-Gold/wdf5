@@ -1,0 +1,43 @@
+body{
+	background-image:url('https://res.cloudinary.com/practicaldev/image/fetch/s--2E6LgSV7--/c_imagga_scale,f_auto,fl_progressive,h_720,q_66,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bo4ytoxpkcdkdhh1vsjk.gif');
+
+}
+
+.intro{
+	border: 3px outset blue;
+	background: linear-gradient(blue,yellow);
+}
+
+
+.welcome{
+	color: blue;
+
+}
+
+.right{
+	color: white;
+}
+
+.love{width: 300px;
+	color: red;
+	font-size: 30px;
+	border: 3px solid blue;
+
+}
+
+	.option{height: 400px;
+		border: 1px solid red;
+		background-image:linear:gradient(green,blue,orange),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuHmCIsOgaPqBt5xtlXR2pg4De2pmDtZ8mmg&usqp=CAU");
+		
+
+	}
+
+.loveis{
+	text-align:justify;
+	
+	width: 300px;
+	height: 300px;
+	
+
+}
+
